@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2394EA1F1E1272A000EECB9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394EA1E1E1272A000EECB9F /* AppDelegate.swift */; };
+		2394EA211E1272A000EECB9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394EA201E1272A000EECB9F /* ViewController.swift */; };
+		2394EA241E1272A000EECB9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2394EA221E1272A000EECB9F /* Main.storyboard */; };
+		2394EA261E1272A000EECB9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2394EA251E1272A000EECB9F /* Assets.xcassets */; };
+		2394EA291E1272A000EECB9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2394EA271E1272A000EECB9F /* LaunchScreen.storyboard */; };
+		2394EA311E12763A00EECB9F /* OpenGraphCrawler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394EA301E12763A00EECB9F /* OpenGraphCrawler.swift */; };
+		57FEA62934CB96FC62838531 /* Pods_OpenGraphCrawler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B26DF4E4B74FDF01E173AEF /* Pods_OpenGraphCrawler.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EC1DA1292C7C8F25CCCE511 /* Pods-OpenGraphCrawler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGraphCrawler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGraphCrawler/Pods-OpenGraphCrawler.debug.xcconfig"; sourceTree = "<group>"; };
+		2394EA1B1E1272A000EECB9F /* OpenGraphCrawler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGraphCrawler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2394EA1E1E1272A000EECB9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2394EA201E1272A000EECB9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2394EA231E1272A000EECB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2394EA251E1272A000EECB9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2394EA281E1272A000EECB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2394EA2A1E1272A000EECB9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2394EA301E12763A00EECB9F /* OpenGraphCrawler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraphCrawler.swift; sourceTree = "<group>"; };
+		2B26DF4E4B74FDF01E173AEF /* Pods_OpenGraphCrawler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGraphCrawler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02E343E925DF803A1738251 /* Pods-OpenGraphCrawler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGraphCrawler.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGraphCrawler/Pods-OpenGraphCrawler.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2394EA181E1272A000EECB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FEA62934CB96FC62838531 /* Pods_OpenGraphCrawler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2394EA121E1272A000EECB9F = {
+			isa = PBXGroup;
+			children = (
+				2394EA1D1E1272A000EECB9F /* OpenGraphCrawler */,
+				2394EA1C1E1272A000EECB9F /* Products */,
+				810BD031E7524121C7ED68B0 /* Pods */,
+				D04C8C53278B9319EA2DD6E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2394EA1C1E1272A000EECB9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2394EA1B1E1272A000EECB9F /* OpenGraphCrawler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2394EA1D1E1272A000EECB9F /* OpenGraphCrawler */ = {
+			isa = PBXGroup;
+			children = (
+				2394EA1E1E1272A000EECB9F /* AppDelegate.swift */,
+				2394EA201E1272A000EECB9F /* ViewController.swift */,
+				2394EA301E12763A00EECB9F /* OpenGraphCrawler.swift */,
+				2394EA221E1272A000EECB9F /* Main.storyboard */,
+				2394EA251E1272A000EECB9F /* Assets.xcassets */,
+				2394EA271E1272A000EECB9F /* LaunchScreen.storyboard */,
+				2394EA2A1E1272A000EECB9F /* Info.plist */,
+			);
+			path = OpenGraphCrawler;
+			sourceTree = "<group>";
+		};
+		810BD031E7524121C7ED68B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EC1DA1292C7C8F25CCCE511 /* Pods-OpenGraphCrawler.debug.xcconfig */,
+				F02E343E925DF803A1738251 /* Pods-OpenGraphCrawler.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D04C8C53278B9319EA2DD6E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B26DF4E4B74FDF01E173AEF /* Pods_OpenGraphCrawler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2394EA1A1E1272A000EECB9F /* OpenGraphCrawler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2394EA2D1E1272A000EECB9F /* Build configuration list for PBXNativeTarget "OpenGraphCrawler" */;
+			buildPhases = (
+				68B5ECBCB06778DFC9CAB8E2 /* [CP] Check Pods Manifest.lock */,
+				2394EA171E1272A000EECB9F /* Sources */,
+				2394EA181E1272A000EECB9F /* Frameworks */,
+				2394EA191E1272A000EECB9F /* Resources */,
+				76CCC8AC691674E2F67A81CA /* [CP] Embed Pods Frameworks */,
+				E1531F86E2F132D3CA0D5716 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGraphCrawler;
+			productName = OpenGraphCrawler;
+			productReference = 2394EA1B1E1272A000EECB9F /* OpenGraphCrawler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2394EA131E1272A000EECB9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = dcard;
+				TargetAttributes = {
+					2394EA1A1E1272A000EECB9F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2394EA161E1272A000EECB9F /* Build configuration list for PBXProject "OpenGraphCrawler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2394EA121E1272A000EECB9F;
+			productRefGroup = 2394EA1C1E1272A000EECB9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2394EA1A1E1272A000EECB9F /* OpenGraphCrawler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2394EA191E1272A000EECB9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2394EA291E1272A000EECB9F /* LaunchScreen.storyboard in Resources */,
+				2394EA261E1272A000EECB9F /* Assets.xcassets in Resources */,
+				2394EA241E1272A000EECB9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68B5ECBCB06778DFC9CAB8E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76CCC8AC691674E2F67A81CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenGraphCrawler/Pods-OpenGraphCrawler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1531F86E2F132D3CA0D5716 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenGraphCrawler/Pods-OpenGraphCrawler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2394EA171E1272A000EECB9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2394EA211E1272A000EECB9F /* ViewController.swift in Sources */,
+				2394EA1F1E1272A000EECB9F /* AppDelegate.swift in Sources */,
+				2394EA311E12763A00EECB9F /* OpenGraphCrawler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2394EA221E1272A000EECB9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2394EA231E1272A000EECB9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2394EA271E1272A000EECB9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2394EA281E1272A000EECB9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2394EA2B1E1272A000EECB9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2394EA2C1E1272A000EECB9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2394EA2E1E1272A000EECB9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC1DA1292C7C8F25CCCE511 /* Pods-OpenGraphCrawler.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenGraphCrawler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcard.OpenGraphCrawler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2394EA2F1E1272A000EECB9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02E343E925DF803A1738251 /* Pods-OpenGraphCrawler.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenGraphCrawler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcard.OpenGraphCrawler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2394EA161E1272A000EECB9F /* Build configuration list for PBXProject "OpenGraphCrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2394EA2B1E1272A000EECB9F /* Debug */,
+				2394EA2C1E1272A000EECB9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2394EA2D1E1272A000EECB9F /* Build configuration list for PBXNativeTarget "OpenGraphCrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2394EA2E1E1272A000EECB9F /* Debug */,
+				2394EA2F1E1272A000EECB9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2394EA131E1272A000EECB9F /* Project object */;
+}

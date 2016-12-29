@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Fuzi (1.0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SQLite.swift (0.11.1):
+    - SQLite.swift/standard (= 0.11.1)
+  - SQLite.swift/standard (0.11.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.0)
+  - Fuzi (~> 1.0.0)
+  - SDWebImage (~> 3.8)
+  - SQLite.swift (~> 0.11.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Fuzi: 851403654bac55675aaeed815d0c8a1d3e3d3e8b
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SQLite.swift: e0c01bd94d8a5cb726835f8bddd41c7d32b606a9
+
+PODFILE CHECKSUM: 91ee2d74500e3174c1d4e15f4f1ca0cf9ae35f83
+
+COCOAPODS: 1.1.1
